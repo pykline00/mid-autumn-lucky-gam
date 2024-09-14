@@ -1,0 +1,50 @@
+<!-- 声明文档类型 -->
+<!DOCTYPE html>
+<!-- HTML是由许多标签所组成的，如<html> -->
+<html lang="en">
+    <!-- 网页由两部分组成：头部、主体 -->
+    <head>
+        <!-- 指定字符编码，UTF-8是国际通用编码 -->
+        <meta charset="UTF-8">
+        <!-- 指定网页的标题 -->
+        <title>我的第一个网页</title>
+
+        <!-- 引用css样式文件 -->
+        <link rel="stylesheet" href="css/demo.css">
+    </head>
+    <body>
+       欢迎来到汤老师课堂！ 
+
+       <!-- 标题标签 -->
+       <h1>Web前端开发</h1>
+       <h2>主讲：汤小洋</h2>
+
+       <!-- 通过class调用类选择器 -->
+       <h3 class="aaa">跟汤哥学开发</h3>
+       <h4 class="aaa">赢取白富美</h4>
+       <h5 class="aaa">走上人生巅峰</h5>
+
+       <!-- 图像标签 -->
+       <img src="images/01.jpg">
+
+       <!-- 分区标签，用来进行区域划分 -->
+       <div class="container">
+          <div class="bbb">HTML</div>        
+          <div class="bbb">CSS</div>        
+          <div class="bbb">JavaScript</div>    
+          <div class="ccc">嘿嘿</div>
+       </div>
+
+       <button onclick="start()">开始</button>
+
+       <button onclick="change()">变变变</button>
+
+       <!-- id表示编号，必须唯一 -->
+       <div class="a1 a2" id="hello">嘿嘿</div>
+
+
+    </body>
+</html>
+
+<!-- 引用js脚本文件 -->
+<script src="js/demo.js"></script>
